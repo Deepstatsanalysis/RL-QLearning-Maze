@@ -61,11 +61,35 @@ We can choose 'up', 'down', 'left' and 'right' to approach destination
     - 90%: choose the action with the highest Q-value
   - Take the action, and observe the reward, r, as well as the new state, s'.
   - Update the Q-table for the state using the observed reward and the maximum reward possible for the next state.
-    - ![Q(s,a)=Q(s,a)+\alpha(r+\gamma\max_{a'}Q(s',a')-Q(s,a))](https://latex.codecogs.com/svg.latex?Q%28s,a%29=Q%28s,a%29+\alpha%28r+\gamma\max_{a%27}Q%28s%27,a%27%29-Q%28s,a%29%29)
+    - ![Q(s,a)=Q(s,a)+\alpha(r+\gamma\max_{a'}Q(s',a')-Q(s,a))](https://latex.codecogs.com/svg.latex?Q%28s,a%29=Q%28s,a%29+\alpha%28r+\gamma\max_{a%27}Q%28s%27,a%27%29-Q%28s,a%29%29)= Q(s, a) + \alpha (r + \gamma \max{_x}(Q(s', x)) - Q(s, a)))
   - Set the state to the new state, and repeat the process until a terminal state is reached.
 
+## Performance
+| Episode | Step  |
+| ---:    | ---:  |
+|       0 |    43 |
+|       1 |    99 |
+|       2 |    60 |
+|       3 |    41 |
+|       4 |    30 |
+|       5 |    23 |
+|       6 |    12 |
+|       7 |    28 |
+|       8 |     6 |
+|       9 |     6 |
+|      10 |    10 |
+|      11 |     6 |
+|      12 |     8 |
+|      13 |     6 |
+|      14 |     6 |
+|      15 |     6 |
+|      16 |     7 |
+|      17 |    11 |
+|      18 |     6 |
+|      19 |     6 |
+
 ## Related Link
-- [nbviewer](https://nbviewer.jupyter.org/github/yutongshen/ReinforceLearning-Maze/blob/master/ReinforceLearning.ipynb)
+- [nbviewer](https://nbviewer.jupyter.org/github/yutongshen/DSAI-HW3-Subtractor/blob/master/Subtractor.ipynb)
 
 ## Authors
 [Yu-Tong Shen](https://github.com/yutongshen/)
