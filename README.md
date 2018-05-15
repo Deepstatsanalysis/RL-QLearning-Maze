@@ -23,20 +23,21 @@ $ python usage: main.py [-h] [-l LENGTH] [-i ITERATION]
 
 ## Game Rules
 
-\_ \_ \_ \* <- Destination, will get +1 reward
-\_ \_ \_ \_
-\_ \_ \_ \_
-o \_ \_ \_
-^
-Start Point
+\_ \_ \_ \* <- Destination, will get +1 reward <br>
+\_ \_ \_ \_<br>
+\_ \_ \_ \_<br>
+o \_ \_ \_<br>
+^<br>
+Start Point<br>
 
 We can choose 'up', 'down', 'left' and 'right' to approach destination
 
 ## Algorithm
 - Q-Learning
   - Initialize Q-Table:
-|  state |  'up'   |  'down' |  'left' | 'right' |
-|   ---: |    ---: |    ---: |    ---: |    ---: |
+
+| state  | 'up'    | 'down'  | 'left'  | 'right' |
+| ---    | ---:    | ---:    | ---:    | ---:    |
 | (0, 0) |     0.0 |     0.0 |     0.0 |     0.0 |
 | (0, 1) |     0.0 |     0.0 |     0.0 |     0.0 |
 | (0, 2) |     0.0 |     0.0 |     0.0 |     0.0 |
