@@ -65,7 +65,7 @@ We can choose 'up', 'down', 'left' and 'right' to approach destination
   - Set the state to the new state, and repeat the process until a terminal state is reached.
 
 ## Related Link
-- [nbviewer](https://nbviewer.jupyter.org/github/yutongshen/DSAI-HW3-Subtractor/blob/master/Subtractor.ipynb)
+- [nbviewer](https://nbviewer.jupyter.org/github/yutongshen/ReinforceLearning-Maze/blob/master/ReinforceLearning.ipynb)
 
 ## Authors
 [Yu-Tong Shen](https://github.com/yutongshen/)
