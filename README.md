@@ -65,6 +65,8 @@ We can choose 'up', 'down', 'left' and 'right' to approach destination
   - Set the state to the new state, and repeat the process until a terminal state is reached.
 
 ## Performance
+- 4 * 4 Grid
+
 | Episode | Step  |
 | ---:    | ---:  |
 |       0 |    43 |
