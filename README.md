@@ -61,7 +61,7 @@ We can choose 'up', 'down', 'left' and 'right' to approach destination
     - 90%: choose the action with the highest Q-value
   - Take the action, and observe the reward, r, as well as the new state, s'.
   - Update the Q-table for the state using the observed reward and the maximum reward possible for the next state.
-    - $$Q(s, a) = Q(s, a) + \alpha (r + \gamma \max{_x}(Q(s', x)) - Q(s, a))$$
+    - [Q(s, a) = Q(s, a) + \alpha (r + \gamma \max{_x}(Q(s', x)) - Q(s, a))](https://latex.codecogs.com/svg.latex?Q(s, a) = Q(s, a) + \alpha (r + \gamma \max{_x}(Q(s', x)) - Q(s, a)))
   - Set the state to the new state, and repeat the process until a terminal state is reached.
 
 ## Related Link
