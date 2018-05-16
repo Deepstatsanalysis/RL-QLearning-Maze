@@ -95,7 +95,7 @@ We can choose 'up', 'down', 'left' and 'right' to approach destination
 | (3, 3) | 0.010342 | 0.000000e+00 | 0.000000e+00 | 1.975590e-04 |
 
 ## Related Link
-- [nbviewer](https://nbviewer.jupyter.org/github/yutongshen/DSAI-HW3-Subtractor/blob/master/Subtractor.ipynb)
+- [nbviewer](https://nbviewer.jupyter.org/github/yutongshen/ReinforceLearning-Maze/blob/master/ReinforceLearning.ipynb)
 
 ## Authors
 [Yu-Tong Shen](https://github.com/yutongshen/)
